@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>videography_icon-01.png</file>
+    </qresource>
+</RCC>
