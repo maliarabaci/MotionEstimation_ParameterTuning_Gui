@@ -11,6 +11,8 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = MotionEstimation_ParameterTuning_Gui
 TEMPLATE = app
 
+CONFIG += static
+
 INCLUDEPATH += /usr/local/include /home/mehmetali/workspace/EgoMotionAnalysis/src
 LIBS += -L/home/mehmetali/workspace/EgoMotionAnalysis/Release -lEgoMotionAnalysis -L/usr/local/lib -lopencv_core -lopencv_highgui -lopencv_optflow -lopencv_imgproc -lopencv_imgcodecs -lopencv_video -lopencv_videoio
 
